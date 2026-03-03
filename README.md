@@ -61,6 +61,24 @@ Spotify Web API + SQLite
 - In-memory LRU cache and token-bucket rate limiting
 - Unit tests for parser and ranking
 
+## Screenshots
+
+### Home Screen
+
+![Home Screen](<screenshots/Screenshot 2026-03-02 at 9.10.22 PM.png>)
+
+### Recommendations
+
+![Recommendations](<screenshots/Screenshot 2026-03-02 at 9.10.44 PM.png>)
+
+### Guest Preview Tracklist
+
+![Guest Preview Tracklist](<screenshots/Screenshot 2026-03-02 at 9.11.03 PM.png>)
+
+### Saved Playlist Flow
+
+![Saved Playlist Flow](<screenshots/Screenshot 2026-03-02 at 9.11.33 PM.png>)
+
 ## Project Structure
 
 ```text
@@ -101,6 +119,7 @@ Vibeforge/
 ├── tests/
 │   ├── rank.test.ts                     # Ranking tests
 │   └── vibe.test.ts                     # Vibe parser tests
+├── screenshots/                         # README screenshots / demo images
 ├── package.json
 └── README.md
 ```
